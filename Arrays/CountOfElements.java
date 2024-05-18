@@ -30,5 +30,7 @@ public class CountOfElements {
         System.out.print("Enter X:");
         int x=sc.nextInt();
         System.out.print("Count of X:"+countOccurences(arr,x));
+
+        sc.close();
             }
 }
