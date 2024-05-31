@@ -42,8 +42,13 @@ public class SortedArray {
         System.out.print("Sorted array is : ");
         for (int i = 0; i < arr.length; i++)   
         {       
-            System.out.print(arr[i]+ " ");   
+            // System.out.print(arr[i]+ " ");   
         }
+        
+
+        
+        System.out.print(Arrays.toString(arr));
+
 
         sc.close();
     }

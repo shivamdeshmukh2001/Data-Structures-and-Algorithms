@@ -1,3 +1,4 @@
-else{
-            //     System.out.println("Number is not present in an array");
-            // }
+static void Sorted(int[] arr){
+    //     Arrays.sort(arr);
+    //     // return arr;
+    // }
