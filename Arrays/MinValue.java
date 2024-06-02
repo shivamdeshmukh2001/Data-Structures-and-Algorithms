@@ -1,3 +1,8 @@
+
+
+//Find the smallest value in an array.
+
+
 import java.util.Scanner;
 
 public class MinValue {
