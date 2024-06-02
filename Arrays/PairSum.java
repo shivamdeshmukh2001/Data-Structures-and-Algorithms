@@ -1,3 +1,6 @@
+
+// Find the total number of Pair from Array whose Sum equal to given value X
+
 import java.util.Scanner;
 
 public class PairSum {
