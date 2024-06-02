@@ -1,3 +1,7 @@
+
+
+//Find the unique number from array where all other number are twice and one number is unique
+
 import java.util.Scanner;
 
 public class FindUniqueNumber {
