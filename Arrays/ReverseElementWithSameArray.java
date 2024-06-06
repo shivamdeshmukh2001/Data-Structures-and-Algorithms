@@ -2,14 +2,16 @@ import java.util.Scanner;
 
 public class ReverseElementWithSameArray {
 
+    static void printArray(int[] arr){
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+    }
+
     static void swapArray(int [] arr, int i, int j){
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
-
-        for (int k = 0; k < arr.length; k++) {
-            System.out.print(arr[k]+" ");
-        }
     }
 
 
@@ -48,6 +50,7 @@ public class ReverseElementWithSameArray {
         System.out.println();
         System.out.println("Reversed Array :");
         reverseElement(arr);
+        printArray(arr);
 
 
         sc.close();
