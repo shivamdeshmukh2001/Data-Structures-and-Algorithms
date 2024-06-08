@@ -13,7 +13,7 @@ public class NumberInArray {
         System.out.println("Numbers in array :");
         int[] a= {12, 45, 67, 34, 98, 76 ,43, 98};
         for (int i = 0; i < a.length; i++) {
-            System.out.print(a[i]);
+            System.out.print(a[i]+" ");
             
         }
         System.out.println();
@@ -28,10 +28,17 @@ public class NumberInArray {
             }
         }
         System.out.println(number+" is Present in an array at index " + ans);
+
+        sc.close();
     }
 
     public static void main(String[] args) {
         NumberInArray num = new NumberInArray();
         num.Find();
+
+
+        
     }
+
+    
 }
