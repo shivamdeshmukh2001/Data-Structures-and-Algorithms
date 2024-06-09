@@ -25,5 +25,7 @@ public class GreaterThanNumberInArray {
         System.out.println("Enter number :");
         int x=sc.nextInt();
         System.out.print("Count of number is :"+countGreaterThanNumber(arr,x));
+
+        sc.close();
     }
 }

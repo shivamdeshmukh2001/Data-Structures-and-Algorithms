@@ -29,6 +29,6 @@ public class FirstRepeatingElement {
                 }
             }
         }
-        return -1;
+        return ans;
     }
 }

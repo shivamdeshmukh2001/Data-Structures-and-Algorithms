@@ -5,11 +5,11 @@ public class NumberPresentinarray {
 
     static int[] makeFrequencyArray(int[] arr){
 
-        int[] freq = new int[100005];
+        int[] frequency = new int[100005];
         for (int i = 0; i < arr.length; i++) {
-            freq[arr[i]]++;
+            frequency[arr[i]]++;
         }
-        return freq;
+        return frequency;
     }
 
 
