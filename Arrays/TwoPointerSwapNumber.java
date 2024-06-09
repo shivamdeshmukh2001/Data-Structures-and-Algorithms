@@ -11,26 +11,22 @@ public class TwoPointerSwapNumber {
         System.out.println();
     }
 
-    static void swap(int[] arr, int i, int j){
-        int temp = arr[i];
-        arr[i]=arr[j];
-        arr[j]=temp;
-    }
+    
 
     static void sortZeroesAndOnes(int[] arr){
 
         int n =arr.length;
-        int count =0;
+        int zeroes =0;
 
         // count no of zeroes
         for (int i = 0; i < n; i++) {
             if(arr[i]==0){
-                count++;
+                zeroes++;
             }
         }
 
         for (int i = 0; i < arr.length; i++) {
-            if (i < count) {
+            if (i < zeroes) {
                 arr[i]=0;
             } else {
                 arr[i]=1;
