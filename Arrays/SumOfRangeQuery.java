@@ -34,5 +34,7 @@ public class SumOfRangeQuery {
 
             System.out.println("Sum : "+ ans);
         }
+
+        sc.close();
     }
 }
