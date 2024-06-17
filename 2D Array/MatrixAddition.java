@@ -17,19 +17,16 @@ public class MatrixAddition {
             return;
         }
         
-
         int[][] sum = new int[row1][col1];
-
         for (int i = 0; i < row1; i++) {
             for (int j = 0; j < col1; j++) {
                 sum[i][j] = A[i][j] + B[i][j];
             }
-            System.out.println();
         }
-
         System.out.println("Sum of Matrix A and Matrix B is :");
         printMatrix(sum);
     }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of rows and columns for matrix A: ");
@@ -39,7 +36,7 @@ public class MatrixAddition {
         System.out.println("Enter the elements of matrix A: ");
         for (int i = 0; i < row1; i++) {
             for (int j = 0; j < col1; j++) {
-                A[row1][col1]= sc.nextInt();
+                A[i][j]= sc.nextInt();
             }
         }
 
@@ -51,7 +48,7 @@ public class MatrixAddition {
         System.out.println("Enter the elements of matrix B: ");
         for (int i = 0; i < row2; i++) {
             for (int j = 0; j < col2; j++) {
-                B[row2][col2]= sc.nextInt();
+                B[i][j]= sc.nextInt();
             }
         }
 
